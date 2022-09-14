@@ -13,8 +13,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import dj_database_url
 
-from dotenv import load_dotenv
-load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -29,7 +27,7 @@ SECRET_KEY = 'django-insecure-@$mww_xtvor!hz@o!wzls=s8+b^khf-9g^x8x4=aeb52j*e_=l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ejd-django-todo-app.herokuapp.com']
 
 
 # Application definition
